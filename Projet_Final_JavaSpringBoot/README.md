@@ -14,7 +14,7 @@ Elle démontre comment créer une application web simple avec des pages dynamiqu
 
 ## Prérequis
 
-- Java JDK 11 ou supérieur
+- Java JDK 17 ou supérieur
 - Maven
 
 ## Installation
@@ -22,19 +22,21 @@ Elle démontre comment créer une application web simple avec des pages dynamiqu
 1. Clonez le projet :
 
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-projet.git
+   git clone https://github.com/boumhamdif7/projetsFatima.git
 
-2. Accédez au répertoire du projet :
+2. Créez une base de données local MySql en utilisant le script /Projet_Final_JavaSpringBoot/ReservationAteliers.sql
+
+3. Accédez au répertoire du projet :
 
    ```bash
    cd votre-projet
    
-3. Exécutez l'application avec Maven :
+4. Exécutez l'application avec Maven :
 
    ```bash
    mvn spring-boot:run
    
-4. Ouvrez votre navigateur et accédez à http://localhost:8080.
+5. Ouvrez votre navigateur et accédez à http://localhost:8080.
 
 
 ## Utilisation
@@ -45,7 +47,11 @@ Elle démontre comment créer une application web simple avec des pages dynamiqu
 
 
 ## Configuration
-Aucune configuration spécifique n'est requise pour cette application. Elle utilise la configuration par défaut de Spring Boot.
+	Aucune configuration spécifique n'est requise pour cette application. 
+	Elle utilise la configuration par défaut de Spring Boot.
+
+### application.properties
+	Le fichier `src/main/resources/application.properties` contient la configuration principale de l'application.
 
 ## Auteur
 Fatima Boumhamdi
